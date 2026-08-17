@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 46 772 362" font-family="Segoe UI, Arial, sans-serif">
+<title>Trio Public Garage — Level 1</title>
+<g id="footprint">
+<polyline id="floor" points="528.5,62.0 726.0,62.0 726.0,367.0 188.0,366.0 33.0,221.0 210.0,62.0 493.9,62.0" fill="#e3e8ee" stroke="#c4ccd5" stroke-width="2"/>
+</g>
+<g id="walls" fill="none" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+<polyline id="wall-0" points="536.0,206.0 505.7,206.0"/>
+<polyline id="wall-1" points="537.0,107.0 537.0,163.0"/>
+<polyline id="wall-2" points="562.0,163.0 614.0,163.0"/>
+<polyline id="wall-3" points="614.0,163.0 614.0,257.0"/>
+<polyline id="wall-4" points="510.6,265.0 510.6,221.8"/>
+<polyline id="wall-5" points="510.6,221.8 333.0,221.8"/>
+<polyline id="wall-6" points="333.0,221.8 333.0,227.2"/>
+<polyline id="wall-7" points="614.0,257.0 510.6,255.6"/>
+<polyline id="wall-8" points="213.0,366.0 213.0,316.0 189.6,316.0 169.6,299.1 205.0,265.0 510.6,265.0"/>
+</g>
+<g id="rooms">
+<rect id="room-electrical-rm-p1010" x="651" y="63" width="75" height="37" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-electrical-rm-p1010-label" x="688.5" y="81.5" font-size="4.6" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="688.5" dy="-2.3">ELECTRICAL RM.</tspan><tspan x="688.5" dy="4.6">P1010</tspan></text>
+<rect id="room-stair-elev" x="562.0" y="179.6" width="51.0" height="26.4" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-stair-elev-label" x="587.5" y="192.79999999999998" font-size="5" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="587.5" dy="-2.6">STAIR</tspan><tspan x="587.5" dy="5.2">&amp; ELEV.</tspan></text>
+<rect id="room-elev-lube" x="544.5" y="224.0" width="23.3" height="26.0" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-elev-lube-label" x="556.15" y="237.0" font-size="3.8" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="556.15" dy="-1.9">ELEV.</tspan><tspan x="556.15" dy="3.8">LUBE</tspan></text>
+<rect id="room-elec-mdfr" x="568.0" y="224.0" width="23.0" height="26.0" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-elec-mdfr-label" x="579.5" y="237.0" font-size="3.8" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="579.5" dy="-1.9">ELEC.</tspan><tspan x="579.5" dy="3.8">MDFR</tspan></text>
+<rect id="room-elec-rm" x="590.8" y="224.0" width="23.2" height="26.0" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-elec-rm-label" x="602.4" y="237.0" font-size="3.8" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="602.4" dy="-1.9">ELEC.</tspan><tspan x="602.4" dy="3.8">RM.</tspan></text>
+<rect id="room-stair-elev-2" x="227.3" y="206.5" width="42.5" height="27.2" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-stair-elev-2-label" x="248.55" y="220.1" font-size="5" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="248.55" dy="-2.6">STAIR</tspan><tspan x="248.55" dy="5.2">&amp; ELEV.</tspan></text>
+<rect id="room-trash" x="269.0" y="206.0" width="42.1" height="25.0" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-trash-label" x="290.05" y="218.5" font-size="4.4" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="290.05" dy="0.0">TRASH</tspan></text>
+<rect id="room-elec-rm-2" x="284" y="231" width="27" height="31" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-elec-rm-2-label" x="297.5" y="246.5" font-size="4.4" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="297.5" dy="-2.2">ELEC.</tspan><tspan x="297.5" dy="4.4">RM.</tspan></text>
+<rect id="room-h-c-w-c" x="237.8" y="233.7" width="32.0" height="28.3" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-h-c-w-c-label" x="253.8" y="247.85" font-size="4.4" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="253.8" dy="0.0">H.C. W.C.</tspan></text>
+<rect id="room-sprinkler-rm" x="681.0" y="318.0" width="46.0" height="49.0" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8" rx="1"/>
+<text id="room-sprinkler-rm-label" x="704.0" y="342.5" font-size="5" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="704.0" dy="-2.6">SPRINKLER</tspan><tspan x="704.0" dy="5.2">RM.</tspan></text>
+<polygon id="room-bicycle-racks-16-spaces" points="170.5,312.6 179.2,323.0 201.6,329.1 199.2,364.6 188.0,366.0 150.9,331.8" fill="#cdd5de" stroke="#b3bdc8" stroke-width="0.8"/>
+<text id="room-bicycle-racks-16-spaces-label" x="181.6" y="337.9" font-size="4.4" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle"><tspan x="181.6" dy="-2.2">BICYCLE RACKS</tspan><tspan x="181.6" dy="4.4">16 SPACES</tspan></text>
+</g>
+<g id="elevator">
+<polygon id="elev" points="144.0,290.6 157.0,301.6 144.0,312.6 131.0,301.6" fill="#bfe0f2" stroke="#7fb4d6" stroke-width="1"/>
+<text x="144.0" y="301.6" font-size="5" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle">ELEV</text>
+</g>
+<g id="feature-labels">
+<text id="label-fire-riser-label" x="543.5" y="135.8" font-size="5" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle" transform="rotate(-90 543.5 135.8)"><tspan x="543.5" dy="0.0">FIRE RISER</tspan></text>
+<text id="label-p1012" x="700" y="323" font-size="4.4" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle">P1012</text>
+<ellipse cx="676" cy="246" rx="6.8" ry="4.8" fill="none" stroke="#b3bdc8" stroke-width="0.8"/>
+<text id="label-hw" x="676" y="246" font-size="4.0" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle">HW</text>
+<ellipse cx="683" cy="90" rx="6.8" ry="4.8" fill="none" stroke="#b3bdc8" stroke-width="0.8"/>
+<text id="label-hw-2" x="683" y="90" font-size="4.0" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle">HW</text>
+<ellipse cx="716" cy="90" rx="6.8" ry="4.8" fill="none" stroke="#b3bdc8" stroke-width="0.8"/>
+<text id="label-hw-3" x="716" y="90" font-size="4.0" font-weight="600" fill="#5a6672" text-anchor="middle" dominant-baseline="middle">HW</text>
+</g>
+<g id="entrance-arrows" stroke="#7c8894" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<g id="arrow-0"><line x1="500" y1="66" x2="500" y2="94"/>
+<polyline points="497,90 500,94 503,90"/></g>
+<g id="arrow-1"><line x1="520" y1="94" x2="520" y2="66"/>
+<polyline points="517,70 520,66 523,70"/></g>
+</g>
+<g id="streets">
+<text id="street-denny-way" x="92" y="118" font-size="14" font-weight="700" fill="#8a97a4" text-anchor="middle" transform="rotate(-41 92 118)">Denny Way</text>
+<text id="street-bay-st" x="758" y="300" font-size="14" font-weight="700" fill="#8a97a4" text-anchor="middle" transform="rotate(90 758 300)">Bay St.</text>
+<text id="street-western-ave" x="430" y="392" font-size="14" font-weight="700" fill="#8a97a4" text-anchor="middle">Western Ave.</text>
+</g>
+<g id="stalls">
+<polygon id="stall-1" points="482.4,163 505.7,163 505.7,206 482.4,206" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-1-label" x="494.0" y="184.5" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">1P</text>
+<polygon id="stall-2" points="458.1,163 481.4,163 481.4,206 458.1,206" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-2-label" x="469.8" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">2</text>
+<polygon id="stall-3" points="433.8,163 457.1,163 457.1,206 433.8,206" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-3-label" x="445.5" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">3C</text>
+<polygon id="stall-4" points="409.5,163 432.8,163 432.8,206 409.5,206" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-4-label" x="421.1" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">4</text>
+<polygon id="stall-5" points="385.2,163 408.5,163 408.5,206 385.2,206" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-5-label" x="396.9" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">5C</text>
+<polygon id="stall-6" points="360.9,163 384.2,163 384.2,206 360.9,206" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-6-label" x="372.5" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">6C</text>
+<polygon id="stall-7" points="336.6,163 359.9,163 359.9,206 336.6,206" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-7-label" x="348.2" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">7</text>
+<polygon id="stall-8" points="312.3,163 335.6,163 335.6,206 312.3,206" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-8-label" x="324.0" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">8</text>
+<polygon id="stall-9" points="288.0,163 311.3,163 311.3,206 288.0,206" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-9-label" x="299.6" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">9C</text>
+<polygon id="stall-10" points="432.0,64 456.0,64 456.0,107 432.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-10-label" x="444.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">10</text>
+<polygon id="stall-11" points="407.0,64 431.0,64 431.0,107 407.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-11-label" x="419.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">11</text>
+<polygon id="stall-12" points="382.0,64 406.0,64 406.0,107 382.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-12-label" x="394.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">12</text>
+<polygon id="stall-13" points="357.0,64 381.0,64 381.0,107 357.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-13-label" x="369.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">13</text>
+<polygon id="stall-14" points="332.0,64 356.0,64 356.0,107 332.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-14-label" x="344.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">14</text>
+<polygon id="stall-15" points="307.0,64 331.0,64 331.0,107 307.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-15-label" x="319.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">15</text>
+<polygon id="stall-16" points="282.0,64 306.0,64 306.0,107 282.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-16-label" x="294.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">16</text>
+<polygon id="stall-17" points="257.0,64 281.0,64 281.0,107 257.0,107" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-17-label" x="269.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">17</text>
+<polygon id="stall-18" points="232.0,64 256.0,64 256.0,107 232.0,107" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-18-label" x="244.0" y="85.5" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">18P</text>
+<polygon id="stall-19" points="196,82 231,112 214,128 179,98" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-19-label" x="205.0" y="105.0" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">19P</text>
+<polygon id="stall-20" points="177,98 213,128 197,144 162,113" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-20-label" x="187.2" y="120.8" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">20</text>
+<polygon id="stall-21" points="160,113 196,144 182,158 145,128" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-21-label" x="170.8" y="135.8" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">21</text>
+<polygon id="stall-22" points="144,128 180,159 165,173 129,142" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-22-label" x="154.5" y="150.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">22</text>
+<polygon id="stall-23" points="128,142 164,173 149,187 113,156" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-23-label" x="138.5" y="164.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">23</text>
+<polygon id="stall-24" points="111,157 147,188 133,202 97,171" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-24-label" x="122.0" y="179.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">24</text>
+<polygon id="stall-25" points="95,171 131,203 116,217 80,186" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-25-label" x="105.5" y="194.2" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">25P</text>
+<polygon id="stall-26" points="78,187 115,218 98,235 61,203" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-26-label" x="88.0" y="210.8" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">26P</text>
+<polygon id="stall-27" points="72.3,257.8 98.0,235.0 118.3,254.5 94.0,278.1" fill="#159bff" stroke="#fff" stroke-width="1.1"/>
+<image x="91.2" y="247.9" width="9" height="9" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABS5JREFUeJztm12IVVUUx//L1DFmrKEmUyuzJgszUSPrycbUoKLoE4rUpCiIXoKohyLqpaAIIrAQQSSiIjOtLFMC8yHDCgt7KDAVrbGy0lIbtdSZXw/njt65nq99zt73ZPiD+3LO3mv917r76+yzj9QkgFuAlcBvwD/AFuAV4IJmaagEoBV4l2T+BuZVrTMYGcH30wvcXLVW79SafV52AKc2W+OgwPYfcCh7jqTrQwlJInQCrgxcvjShE9DmWP60ICpSCJ2AHY7lu4OoSCF0AlYHLv/fBhgLHMw5C6ysWm8QgLm1eT6NbcDIqrUGA7gJ6E4I/sMqg7dmOQKGSbpO0lWKRvtuSavNbGOzNJzkJMfTzC7QJukeSV2ShitaI6yQtNLMaJaOSgCmAb8kDIJrgPaqNQYDmAD8lTENrgFCL8qqAViVEXw/t1Wt1TtAB9mLoH6WVqExdLPrdPAxPqSQJEInYFigst74fw48DpxMQNUCqsZrAoCWE20+9yIWmAi8JOknSa0+bDaLwWUqA6MlPSdpjpr4XOGTQi0AMOARSd9LmqsTNHipQAsg2thYqOjJzifnAhtylNsnaZmkBWbW51lDOkA78GXGknZ4XfmunMvgIjzuI6bcXQBokfSepKkpxXok9ZYVlZP7fBhxGQNeVbSZEUefpPmSOs3sQFlROTnSJD8SMC+lKf4MzEioF6oL9AFzfcSWOQgCHZJeSLj9g6SZZrbVg5aDkj7LUW6/pMVmtsKDz2yARQn/wi5gbEZdlxawpSkBNZA6BgAjFC1yjrslaY6ZbQ8hqplkdYEHJbXEXH/dzHy/yMy7DpCiQXe7pEVm9rFnHccAtsY01UPAeTnru3SBIvQBD4cKfkyC02UONqYETgBER+46i8aZNgbMTLj+hoP9TYpG95AMlfRU0cppCYhb8SHp07zGa4sil4QVZTZwSZGKaQkYEXPtRzP73dHHE4oGrJCcooKtwDUBv7o6qCXsaknrXOs6chdwqWultGnw9JhrPa4OJMnMuiVNA7okzZBU9EDE5ZKuSLg3SNLTku4saHsgwBcxI+43XowX1zQOOJwyI/QBk1xspnWBPTHXRrlJ9ouZbVb6oGoqMSMMgOgoe1yGz/TioLiusbW5P60VpO1ZDCCtBXwbc80k3eisugBAG7AEeBs4eoS29vzxWkpVk/SkDwETEjK8vLTxfP7vrfO5puHemIxWQH3SigowYHuM4UPAxaWM5/PdOAhPbyizICMBH/kQ8kyC8aDv8oG7Y3yuaygzGjiQkYRpZYWcX/vHG+kDbihlPNlnB8mHKqc2lJ2fkYDyj8rA4gTjewCvhxqAIcAnCf42A0Mbyo8C9mckIWkjN7eo0cC+BONbgXGlHBzz0wIsTQnk9oR6L2YkIPfDW5q4h1Ic7AZmlbQ/Elib4mM5EPv6DTgb6MlIwjVl9PU7eifFwRFgIeC0UgQGA/cDf6TY3kbGOULg+YwEvFUueh39/u/zDEc9wMvATCDxQQvoBB4lfpqtZzcwOYe2DpK7KcD6pLpOb3WJ3hGsUvITWT17JH0naWft1yrpLEkTJeXZU/xT0iwz+zqntmcV7T3E8aaZzc5jJ4+jNuCDjH+uLJuAiY662omfPnuBKV6Cr3NmwGPk/xzGhSVAoa/HgPHAhjpbO4E7vAbf4PAi4H2ihVFZNgLXetJ1IXAZMMSHvTwOJxMtmPY6Bn2YqDvdSkWHq7webSH69rdL0nRJkySNk3SGpHZJeyXtUrSv+JWk9ZLWmpnzPqNP/gVVWl8GQvJ3mwAAAABJRU5ErkJggg=="/>
+<text id="stall-27-label" x="95.7" y="262.9" font-size="6" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">27</text>
+<polygon id="stall-28" points="94.0,278.1 118.3,254.5 137.0,269.4 111.5,294.5" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-28-label" x="115.2" y="274.1" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">28P</text>
+<polygon id="stall-29" points="220.0,316 243.5,316 243.5,363 220.0,363" fill="#fdc010" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-29-label" x="231.8" y="339.5" font-size="7" font-weight="700" fill="#231f20" text-anchor="middle" dominant-baseline="central">29P</text>
+<polygon id="stall-30" points="244.2,316 267.7,316 267.7,363 244.2,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-30-label" x="255.9" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">30</text>
+<polygon id="stall-31" points="268.4,316 291.9,316 291.9,363 268.4,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-31-label" x="280.1" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">31</text>
+<polygon id="stall-32" points="292.6,316 316.1,316 316.1,363 292.6,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-32-label" x="304.4" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">32</text>
+<polygon id="stall-33" points="316.8,316 340.3,316 340.3,363 316.8,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-33-label" x="328.6" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">33</text>
+<polygon id="stall-34" points="341.0,316 364.5,316 364.5,363 341.0,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-34-label" x="352.8" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">34</text>
+<polygon id="stall-35" points="365.2,316 388.7,316 388.7,363 365.2,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-35-label" x="376.9" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">35</text>
+<polygon id="stall-36" points="389.4,316 412.9,316 412.9,363 389.4,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-36-label" x="401.1" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">36</text>
+<polygon id="stall-37" points="413.6,316 437.1,316 437.1,363 413.6,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-37-label" x="425.4" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">37</text>
+<polygon id="stall-38" points="437.8,316 461.3,316 461.3,363 437.8,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-38-label" x="449.5" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">38</text>
+<polygon id="stall-39" points="462.0,316 485.5,316 485.5,363 462.0,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-39-label" x="473.8" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">39</text>
+<polygon id="stall-40" points="486.2,316 509.7,316 509.7,363 486.2,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-40-label" x="497.9" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">40</text>
+<polygon id="stall-41" points="510.4,316 533.9,316 533.9,363 510.4,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-41-label" x="522.1" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">41</text>
+<polygon id="stall-42" points="534.6,316 558.1,316 558.1,363 534.6,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-42-label" x="546.3" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">42</text>
+<polygon id="stall-43" points="558.8,316 582.3,316 582.3,363 558.8,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-43-label" x="570.5" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">43</text>
+<polygon id="stall-44" points="583.0,316 606.5,316 606.5,363 583.0,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-44-label" x="594.8" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">44</text>
+<polygon id="stall-45" points="607.2,316 630.7,316 630.7,363 607.2,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-45-label" x="619.0" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">45</text>
+<polygon id="stall-46" points="631.4,316 654.9,316 654.9,363 631.4,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-46-label" x="643.1" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">46</text>
+<polygon id="stall-47" points="655.6,316 679.1,316 679.1,363 655.6,363" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-47-label" x="667.3" y="339.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">47</text>
+<polygon id="stall-48" points="333.0,226 356.3,226 356.3,265 333.0,265" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-48-label" x="344.6" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">48C</text>
+<polygon id="stall-49" points="357.3,226 380.6,226 380.6,265 357.3,265" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-49-label" x="369.0" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">49C</text>
+<polygon id="stall-50" points="381.6,226 404.9,226 404.9,265 381.6,265" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-50-label" x="393.2" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">50</text>
+<polygon id="stall-51" points="405.9,226 429.2,226 429.2,265 405.9,265" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-51-label" x="417.5" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">51</text>
+<polygon id="stall-52" points="430.2,226 453.5,226 453.5,265 430.2,265" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-52-label" x="441.9" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">52</text>
+<polygon id="stall-53" points="454.5,226 477.8,226 477.8,265 454.5,265" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-53-label" x="466.1" y="245.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">53</text>
+<polygon id="stall-54" points="478.8,226 502.1,226 502.1,265 478.8,265" fill="#159bff" stroke="#fff" stroke-width="1.1"/>
+<image x="486.0" y="237.0" width="9" height="9" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABS5JREFUeJztm12IVVUUx//L1DFmrKEmUyuzJgszUSPrycbUoKLoE4rUpCiIXoKohyLqpaAIIrAQQSSiIjOtLFMC8yHDCgt7KDAVrbGy0lIbtdSZXw/njt65nq99zt73ZPiD+3LO3mv917r76+yzj9QkgFuAlcBvwD/AFuAV4IJmaagEoBV4l2T+BuZVrTMYGcH30wvcXLVW79SafV52AKc2W+OgwPYfcCh7jqTrQwlJInQCrgxcvjShE9DmWP60ICpSCJ2AHY7lu4OoSCF0AlYHLv/fBhgLHMw5C6ysWm8QgLm1eT6NbcDIqrUGA7gJ6E4I/sMqg7dmOQKGSbpO0lWKRvtuSavNbGOzNJzkJMfTzC7QJukeSV2ShitaI6yQtNLMaJaOSgCmAb8kDIJrgPaqNQYDmAD8lTENrgFCL8qqAViVEXw/t1Wt1TtAB9mLoH6WVqExdLPrdPAxPqSQJEInYFigst74fw48DpxMQNUCqsZrAoCWE20+9yIWmAi8JOknSa0+bDaLwWUqA6MlPSdpjpr4XOGTQi0AMOARSd9LmqsTNHipQAsg2thYqOjJzifnAhtylNsnaZmkBWbW51lDOkA78GXGknZ4XfmunMvgIjzuI6bcXQBokfSepKkpxXok9ZYVlZP7fBhxGQNeVbSZEUefpPmSOs3sQFlROTnSJD8SMC+lKf4MzEioF6oL9AFzfcSWOQgCHZJeSLj9g6SZZrbVg5aDkj7LUW6/pMVmtsKDz2yARQn/wi5gbEZdlxawpSkBNZA6BgAjFC1yjrslaY6ZbQ8hqplkdYEHJbXEXH/dzHy/yMy7DpCiQXe7pEVm9rFnHccAtsY01UPAeTnru3SBIvQBD4cKfkyC02UONqYETgBER+46i8aZNgbMTLj+hoP9TYpG95AMlfRU0cppCYhb8SHp07zGa4sil4QVZTZwSZGKaQkYEXPtRzP73dHHE4oGrJCcooKtwDUBv7o6qCXsaknrXOs6chdwqWultGnw9JhrPa4OJMnMuiVNA7okzZBU9EDE5ZKuSLg3SNLTku4saHsgwBcxI+43XowX1zQOOJwyI/QBk1xspnWBPTHXRrlJ9ouZbVb6oGoqMSMMgOgoe1yGz/TioLiusbW5P60VpO1ZDCCtBXwbc80k3eisugBAG7AEeBs4eoS29vzxWkpVk/SkDwETEjK8vLTxfP7vrfO5puHemIxWQH3SigowYHuM4UPAxaWM5/PdOAhPbyizICMBH/kQ8kyC8aDv8oG7Y3yuaygzGjiQkYRpZYWcX/vHG+kDbihlPNlnB8mHKqc2lJ2fkYDyj8rA4gTjewCvhxqAIcAnCf42A0Mbyo8C9mckIWkjN7eo0cC+BONbgXGlHBzz0wIsTQnk9oR6L2YkIPfDW5q4h1Ic7AZmlbQ/Elib4mM5EPv6DTgb6MlIwjVl9PU7eifFwRFgIeC0UgQGA/cDf6TY3kbGOULg+YwEvFUueh39/u/zDEc9wMvATCDxQQvoBB4lfpqtZzcwOYe2DpK7KcD6pLpOb3WJ3hGsUvITWT17JH0naWft1yrpLEkTJeXZU/xT0iwz+zqntmcV7T3E8aaZzc5jJ4+jNuCDjH+uLJuAiY662omfPnuBKV6Cr3NmwGPk/xzGhSVAoa/HgPHAhjpbO4E7vAbf4PAi4H2ihVFZNgLXetJ1IXAZMMSHvTwOJxMtmPY6Bn2YqDvdSkWHq7webSH69rdL0nRJkySNk3SGpHZJeyXtUrSv+JWk9ZLWmpnzPqNP/gVVWl8GQvJ3mwAAAABJRU5ErkJggg=="/>
+<text id="stall-54-label" x="490.5" y="252.0" font-size="6" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">54</text>
+<polygon id="stall-55" points="670,297.7 721.0,297.7 721.0,316.4 670,316.4" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-55-label" x="695.5" y="307.1" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">55</text>
+<polygon id="stall-56" points="670,276.4 721.0,276.4 721.0,295.1 670,295.1" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-56-label" x="695.5" y="285.8" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">56</text>
+<polygon id="stall-57" points="670,255.1 721.0,255.1 721.0,273.8 670,273.8" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-57-label" x="695.5" y="264.4" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">57</text>
+<polygon id="stall-58" points="670,233.8 721.0,233.8 721.0,252.5 670,252.5" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-58-label" x="695.5" y="243.2" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">58C</text>
+<polygon id="stall-59" points="670,212.5 721.0,212.5 721.0,231.2 670,231.2" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-59-label" x="695.5" y="221.8" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">59</text>
+<polygon id="stall-60" points="670,191.2 721.0,191.2 721.0,209.9 670,209.9" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-60-label" x="695.5" y="200.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">60</text>
+<polygon id="stall-61" points="670,169.9 721.0,169.9 721.0,188.6 670,188.6" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-61-label" x="695.5" y="179.2" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">61</text>
+<polygon id="stall-62" points="670,148.6 721.0,148.6 721.0,167.3 670,167.3" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-62-label" x="695.5" y="157.9" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">62</text>
+<polygon id="stall-63" points="670,127.3 721.0,127.3 721.0,146.0 670,146.0" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-63-label" x="695.5" y="136.7" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">63</text>
+<polygon id="stall-64" points="670,106.0 721.0,106.0 721.0,124.7 670,124.7" fill="#4a9d6e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-64-label" x="695.5" y="115.3" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">64</text>
+<polygon id="stall-65" points="612.6,64 636.6,64 636.6,107 612.6,107" fill="#159bff" stroke="#fff" stroke-width="1.1"/>
+<image x="620.1" y="77.0" width="9" height="9" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABS5JREFUeJztm12IVVUUx//L1DFmrKEmUyuzJgszUSPrycbUoKLoE4rUpCiIXoKohyLqpaAIIrAQQSSiIjOtLFMC8yHDCgt7KDAVrbGy0lIbtdSZXw/njt65nq99zt73ZPiD+3LO3mv917r76+yzj9QkgFuAlcBvwD/AFuAV4IJmaagEoBV4l2T+BuZVrTMYGcH30wvcXLVW79SafV52AKc2W+OgwPYfcCh7jqTrQwlJInQCrgxcvjShE9DmWP60ICpSCJ2AHY7lu4OoSCF0AlYHLv/fBhgLHMw5C6ysWm8QgLm1eT6NbcDIqrUGA7gJ6E4I/sMqg7dmOQKGSbpO0lWKRvtuSavNbGOzNJzkJMfTzC7QJukeSV2ShitaI6yQtNLMaJaOSgCmAb8kDIJrgPaqNQYDmAD8lTENrgFCL8qqAViVEXw/t1Wt1TtAB9mLoH6WVqExdLPrdPAxPqSQJEInYFigst74fw48DpxMQNUCqsZrAoCWE20+9yIWmAi8JOknSa0+bDaLwWUqA6MlPSdpjpr4XOGTQi0AMOARSd9LmqsTNHipQAsg2thYqOjJzifnAhtylNsnaZmkBWbW51lDOkA78GXGknZ4XfmunMvgIjzuI6bcXQBokfSepKkpxXok9ZYVlZP7fBhxGQNeVbSZEUefpPmSOs3sQFlROTnSJD8SMC+lKf4MzEioF6oL9AFzfcSWOQgCHZJeSLj9g6SZZrbVg5aDkj7LUW6/pMVmtsKDz2yARQn/wi5gbEZdlxawpSkBNZA6BgAjFC1yjrslaY6ZbQ8hqplkdYEHJbXEXH/dzHy/yMy7DpCiQXe7pEVm9rFnHccAtsY01UPAeTnru3SBIvQBD4cKfkyC02UONqYETgBER+46i8aZNgbMTLj+hoP9TYpG95AMlfRU0cppCYhb8SHp07zGa4sil4QVZTZwSZGKaQkYEXPtRzP73dHHE4oGrJCcooKtwDUBv7o6qCXsaknrXOs6chdwqWultGnw9JhrPa4OJMnMuiVNA7okzZBU9EDE5ZKuSLg3SNLTku4saHsgwBcxI+43XowX1zQOOJwyI/QBk1xspnWBPTHXRrlJ9ouZbVb6oGoqMSMMgOgoe1yGz/TioLiusbW5P60VpO1ZDCCtBXwbc80k3eisugBAG7AEeBs4eoS29vzxWkpVk/SkDwETEjK8vLTxfP7vrfO5puHemIxWQH3SigowYHuM4UPAxaWM5/PdOAhPbyizICMBH/kQ8kyC8aDv8oG7Y3yuaygzGjiQkYRpZYWcX/vHG+kDbihlPNlnB8mHKqc2lJ2fkYDyj8rA4gTjewCvhxqAIcAnCf42A0Mbyo8C9mckIWkjN7eo0cC+BONbgXGlHBzz0wIsTQnk9oR6L2YkIPfDW5q4h1Ic7AZmlbQ/Elib4mM5EPv6DTgb6MlIwjVl9PU7eifFwRFgIeC0UgQGA/cDf6TY3kbGOULg+YwEvFUueh39/u/zDEc9wMvATCDxQQvoBB4lfpqtZzcwOYe2DpK7KcD6pLpOb3WJ3hGsUvITWT17JH0naWft1yrpLEkTJeXZU/xT0iwz+zqntmcV7T3E8aaZzc5jJ4+jNuCDjH+uLJuAiY662omfPnuBKV6Cr3NmwGPk/xzGhSVAoa/HgPHAhjpbO4E7vAbf4PAi4H2ihVFZNgLXetJ1IXAZMMSHvTwOJxMtmPY6Bn2YqDvdSkWHq7webSH69rdL0nRJkySNk3SGpHZJeyXtUrSv+JWk9ZLWmpnzPqNP/gVVWl8GQvJ3mwAAAABJRU5ErkJggg=="/>
+<text id="stall-65-label" x="624.6" y="92.0" font-size="6" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">65</text>
+<polygon id="stall-66" points="587.4,64 611.4,64 611.4,107 587.4,107" fill="#9b59b6" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-66-label" x="599.4" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">66SC</text>
+<polygon id="stall-67" points="562.2,64 586.2,64 586.2,107 562.2,107" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-67-label" x="574.2" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">67C</text>
+<polygon id="stall-68" points="537.0,64 561.0,64 561.0,107 537.0,107" fill="#e0822e" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-68-label" x="549.0" y="85.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">68C</text>
+<polygon id="stall-69" points="536,163 562.0,163 562.0,206 536,206" fill="#9b59b6" stroke="#fff" stroke-width="1.1"/>
+<text id="stall-69-label" x="549.0" y="184.5" font-size="7" font-weight="700" fill="#fff" text-anchor="middle" dominant-baseline="central">69SC</text>
+</g>
+</svg>

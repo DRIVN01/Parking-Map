@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#231f20">
+<meta name="robots" content="noindex, nofollow">
+<title>Drivn — Trio Garage Admin</title>
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="stylesheet" href="assets/admin.css">
+</head>
+<body>
+<div id="admin">
+
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="assets/logo.png" alt="Drivn Parking">
+      <div class="brand-text">
+        <strong>Trio Garage — Admin</strong>
+        <span>Set stall availability</span>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <span class="admin-tag">ADMIN</span>
+      <button class="publish-btn" id="publishBtn" disabled>Publish changes</button>
+    </div>
+  </header>
+
+  <div class="admin-main">
+    <section class="map-wrap" id="mapWrap">
+      <div class="map-toolbar">
+        <button class="tool" id="zoomIn" aria-label="Zoom in">+</button>
+        <button class="tool" id="zoomOut" aria-label="Zoom out">&minus;</button>
+        <button class="tool" id="zoomReset" aria-label="Reset view">⟳</button>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="svg-host" id="svgHost"></div>
+      <p class="hint" id="hint">Tap a stall, then choose its status below</p>
+    </section>
+  </div>
+
+  <!-- status picker bar -->
+  <div class="picker" id="picker" hidden>
+    <div class="picker-info">
+      <b id="pickerTitle">Stall</b>
+      <span id="pickerType" class="picker-type"></span>
+    </div>
+    <div class="picker-btns">
+      <button data-set="available"   class="pk pk-available">Available</button>
+      <button data-set="reserved"    class="pk pk-reserved">Reserved</button>
+      <button data-set="unavailable" class="pk pk-unavailable">Unavailable</button>
+    </div>
+    <button class="picker-close" id="pickerClose" aria-label="Close">&times;</button>
+  </div>
+
+  <!-- login gate -->
+  <div class="gate" id="gate">
+    <form class="gate-card" id="gateForm">
+      <img class="gate-logo" src="assets/logo.png" alt="Drivn Parking">
+      <h1>Trio Garage Admin</h1>
+      <p>Enter the admin password to manage stall availability.</p>
+      <input id="gatePass" type="password" placeholder="Password" autocomplete="current-password" autofocus>
+      <button type="submit" id="gateBtn">Sign in</button>
+      <p class="gate-msg" id="gateMsg" hidden></p>
+    </form>
+  </div>
+
+  <div class="toast" id="toast" hidden></div>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/availability.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>

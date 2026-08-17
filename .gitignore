@@ -1,0 +1,18 @@
+# OS / tooling
+.DS_Store
+Thumbs.db
+.qodo/
+
+# Working & reference files (not part of the deployed site)
+garage-map_edited.svg
+Wes on Western Example.png
+
+# Brand source assets (the deployed logo lives in assets/logo.png)
+Drivn_Logo_Files/
+DrivnLogo_ConceptA5*.pdf
+
+# Raw client photo source (HEIC originals; web JPGs live in photos/)
+Trio Condominium Photo Inventory*/
+
+# Source icon drop (deployed copy is assets/disabled.png)
+/disabled.png

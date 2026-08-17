@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#231f20">
+<title>Trio Public Garage — Interactive Stall Map</title>
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div id="app">
+
+  <!-- ============ HEADER ============ -->
+  <header class="topbar">
+    <div class="brand">
+      <img class="brand-logo" src="assets/logo.png" alt="Drivn Parking">
+      <span class="brand-div" aria-hidden="true"></span>
+      <div class="brand-text">
+        <strong>Trio Public Garage</strong>
+        <span id="levelLabel">Level 1</span>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="count-pill"><b id="visibleCount">69</b> stalls</div>
+      <button class="icon-btn" id="listToggle" title="Show stall list" aria-label="Show stall list">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="main">
+    <!-- ============ MAP ============ -->
+    <section class="map-wrap" id="mapWrap">
+      <div class="map-toolbar">
+        <button class="tool" id="zoomIn"  aria-label="Zoom in">+</button>
+        <button class="tool" id="zoomOut" aria-label="Zoom out">&minus;</button>
+        <button class="tool" id="zoomReset" aria-label="Reset view">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 5V2L8 6l4 4V7a5 5 0 1 1-5 5H5a7 7 0 1 0 7-7z"/></svg>
+        </button>
+      </div>
+      <div class="legend" id="legend"></div>
+      <div class="svg-host" id="svgHost"></div>
+      <p class="hint" id="hint">Tap a stall to see its photos and details</p>
+    </section>
+
+    <!-- ============ SIDEBAR ============ -->
+    <aside class="sidebar" id="sidebar">
+      <div class="search-row">
+        <svg class="search-ico" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.5 4.5 0 0 1 9.5 14z"/></svg>
+        <input id="search" type="search" inputmode="search" placeholder="Search stall number…" autocomplete="off">
+        <button class="clear-btn" id="clearSearch" hidden aria-label="Clear search">&times;</button>
+      </div>
+      <div class="list-head"><span id="matchLabel">69 stalls</span><span class="list-sub">Level 1</span></div>
+      <ul class="spot-list" id="spotList"></ul>
+    </aside>
+  </div>
+
+  <!-- ============ INFO PANEL (bottom sheet / side card) ============ -->
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden></div>
+  <div class="sheet" id="sheet" hidden aria-modal="true" role="dialog">
+    <button class="sheet-close" id="sheetClose" aria-label="Close">&times;</button>
+    <div class="gallery" id="gallery">
+      <img id="galImg" alt="" >
+      <button class="gal-nav prev" id="galPrev" aria-label="Previous photo">&#8249;</button>
+      <button class="gal-nav next" id="galNext" aria-label="Next photo">&#8250;</button>
+      <div class="gal-dots" id="galDots"></div>
+    </div>
+    <div class="sheet-body">
+      <div class="sheet-title-row">
+        <h2 id="stallTitle">Stall</h2>
+        <span class="type-badge" id="typeBadge">Standard</span>
+        <span class="status-badge" id="statusBadge">Reserved</span>
+      </div>
+      <p class="stall-note" id="stallNote" hidden></p>
+      <p class="stall-desc" id="stallDesc"></p>
+    </div>
+  </div>
+
+</div>
+
+<script src="assets/data.js"></script>
+<!-- edit assets/availability.js to change which stalls are available to rent -->
+<script src="assets/availability.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

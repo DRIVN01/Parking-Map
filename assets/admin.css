@@ -1,0 +1,81 @@
+/* ============================================================
+   Admin-only styles (loaded on top of styles.css)
+   ============================================================ */
+#admin{display:flex;flex-direction:column;height:100dvh;min-height:100dvh;overflow:hidden}
+.admin-main{flex:1 1 auto;display:flex;min-height:0;overflow:hidden}
+.admin-main .map-wrap{flex:1 1 auto}
+
+.brand-logo{height:30px;width:auto;display:block}
+.admin-tag{font-size:11px;font-weight:800;letter-spacing:.6px;color:#231f20;
+  background:var(--brand-yellow,#fdc010);padding:3px 8px;border-radius:6px}
+
+.publish-btn{border:0;border-radius:10px;font-weight:700;font-size:14px;cursor:pointer;
+  padding:9px 16px;background:var(--brand,#159bff);color:#fff}
+.publish-btn:disabled{opacity:.45;cursor:default}
+.publish-btn:not(:disabled):active{transform:translateY(1px)}
+
+/* legend as a live read-out (not buttons here) */
+.legend .lg-title{font-size:11px;font-weight:800;letter-spacing:.4px;color:var(--muted);
+  text-transform:uppercase;padding:2px 6px 5px}
+.legend .lg-row{display:flex;align-items:center;gap:8px;padding:4px 6px;font-size:12.5px}
+.legend .lg-row .sw{width:14px;height:14px;border-radius:4px;flex:0 0 auto;border:1px solid rgba(0,0,0,.15)}
+.legend .lg-row .lg-count{margin-left:auto;font-variant-numeric:tabular-nums;color:var(--muted)}
+.sw-available{background:#6b7885;border:2px dashed #39ff14 !important}
+.sw-reserved{background:#8a97a4}
+.sw-unavailable{background:#4b5560}
+
+/* stall being edited (changed but not yet published) */
+.stall.edited{stroke:#f5a623;stroke-width:2.4;stroke-dasharray:2.6 1.8}
+.stall.selected{stroke:#1f2d3a;stroke-width:2.6;stroke-dasharray:none}
+
+/* ---------------- status picker bar ---------------- */
+.picker{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);z-index:25;
+  display:flex;align-items:center;gap:14px;background:var(--surface);border:1px solid var(--line);
+  border-radius:14px;box-shadow:var(--shadow);padding:10px 14px;max-width:calc(100vw - 24px)}
+.picker[hidden]{display:none}
+.picker-info{display:flex;flex-direction:column;line-height:1.15;min-width:70px}
+.picker-info b{font-size:15px}
+.picker-type{font-size:12px;color:var(--muted)}
+.picker-btns{display:flex;gap:8px;flex-wrap:wrap}
+.pk{border:1.5px solid var(--line);background:transparent;color:var(--ink);font-weight:700;font-size:13px;
+  padding:8px 12px;border-radius:9px;cursor:pointer;white-space:nowrap}
+.pk:active{transform:translateY(1px)}
+.pk-available.on{background:#d6f5e3;border-color:#34c77b;color:#0b6b3a}
+.pk-reserved.on{background:#e7ecf1;border-color:#c4ccd5;color:#3a4652}
+.pk-unavailable.on{background:#f6dede;border-color:#d99;color:#8a2b2b}
+.picker-close{border:0;background:transparent;color:var(--muted);font-size:24px;cursor:pointer;line-height:1;padding:0 2px}
+
+/* ---------------- login gate ---------------- */
+.gate{position:fixed;inset:0;z-index:40;display:grid;place-items:center;padding:20px;
+  background:#231f20;transition:opacity .25s}
+.gate.hidden{opacity:0;pointer-events:none}
+/* card is always dark (brand) so the reverse logo + white text read in both themes */
+.gate-card{width:100%;max-width:360px;background:#2b2725;border:1px solid #3a3532;border-radius:18px;
+  padding:30px 26px;box-shadow:0 20px 60px rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;text-align:center}
+.gate-logo{height:40px;margin-bottom:16px}
+.gate-card h1{margin:0 0 6px;font-size:20px;color:#fff}
+.gate-card p{margin:0 0 16px;font-size:14px;color:#b7b2ae}
+.gate-card input{width:100%;padding:12px 14px;border:1px solid #4a4441;border-radius:10px;
+  font-size:16px;background:#211d1c;color:#fff;margin-bottom:12px}
+.gate-card input::placeholder{color:#8b857f}
+.gate-card input:focus{outline:2px solid var(--brand)}
+.gate-card button{width:100%;padding:12px;border:0;border-radius:10px;background:var(--brand,#159bff);
+  color:#fff;font-weight:700;font-size:15px;cursor:pointer}
+.gate-card button:disabled{opacity:.6}
+.gate-msg{color:#c0392b;font-size:13.5px;margin:12px 0 0 !important}
+
+/* ---------------- toast ---------------- */
+.toast{position:fixed;left:50%;top:66px;transform:translateX(-50%) translateY(-8px);z-index:50;
+  background:#233;color:#fff;font-size:13.5px;font-weight:600;padding:10px 16px;border-radius:10px;
+  box-shadow:var(--shadow);opacity:0;transition:opacity .2s,transform .2s;max-width:calc(100vw - 24px);text-align:center}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.ok{background:#137a45}
+.toast.err{background:#b23b3b}
+
+@media (prefers-color-scheme:dark){
+  .pk-available.on{background:#123626;border-color:#2e8f60;color:#8ef0bb}
+  .pk-reserved.on{background:#28313b;border-color:#3a4550;color:#aeb9c4}
+  .pk-unavailable.on{background:#3a1f1f;border-color:#7a4444;color:#f2b0b0}
+  .gate-card input{background:#232c35}
+  .stall.selected{stroke:#dfe7ef}
+}
