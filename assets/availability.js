@@ -6,7 +6,7 @@
 
 window.STALL_STATUS = {
 
-  available: [9, 12, 47, 58, 65, 67],
+  available: [9, 12, 17, 47, 58, 65, 67],
 
   unavailable: [],
 
