@@ -3,7 +3,7 @@
    Renders the SVG map from window.GARAGE_DATA and wires up
    pan/zoom, stall selection, photo panel, search and filtering.
    ============================================================ */
-(function () {
+function startGarageApp() {
   "use strict";
   var D = window.GARAGE_DATA;
   if (!D) { console.error("GARAGE_DATA not found"); return; }
@@ -478,4 +478,22 @@
   }
   window.addEventListener("hashchange", openFromHash);
   setTimeout(openFromHash, 60);
+}
+
+// Load the live status first (same source the admin saves to), so the public map
+// is never behind the admin. Falls back to the static availability.js if the API
+// is unreachable or slow, or when the page is opened as a local file.
+(function boot() {
+  var started = false;
+  function go() { if (!started) { started = true; startGarageApp(); } }
+  if (!/^https?:$/.test(location.protocol) || !window.fetch) return go();
+  var timer = setTimeout(go, 2500);
+  fetch("/api/status", { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (st) {
+      if (st && Array.isArray(st.available))
+        window.STALL_STATUS = { available: st.available, unavailable: st.unavailable || [], notes: st.notes || {} };
+    })
+    .catch(function () {})
+    .then(function () { clearTimeout(timer); go(); });
 })();

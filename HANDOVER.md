@@ -12,7 +12,7 @@ in the future.
   (`https://trio-garage-map.vercel.app/`, or your own web address).
 - **Admin screen** — a private, password-protected page (`/admin.html`) where you click a
   stall to set **Available / Reserved / Unavailable**, then press **Publish**.
-- When you publish, the public map updates on its own within about a minute.
+- When you publish, the public map shows the change within a few seconds. Publishing only saves the stalls you changed, so two people (or an old browser tab) can never overwrite each other.
 
 It's built with plain, standard web technology (HTML, CSS, JavaScript) and one small
 serverless function — no unusual frameworks, no database to run. Any web developer can

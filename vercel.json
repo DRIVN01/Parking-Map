@@ -1,0 +1,10 @@
+{
+  "headers": [
+    { "source": "/", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/admin.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/assets/app.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/assets/admin.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/assets/availability.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+  ]
+}

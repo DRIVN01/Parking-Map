@@ -3,7 +3,7 @@
 The private admin screen lives at **`/admin.html`** (e.g.
 `https://trio-garage-map.vercel.app/admin.html`). It shows the garage; you click a stall and
 choose **Available / Reserved / Unavailable**, then press **Publish**. Publishing saves the
-change and the public map updates within about a minute.
+change and the public map shows it within a few seconds.
 
 It works by committing `assets/availability.js` to GitHub (which redeploys the site), so there
 is **no database and no extra account** to run — just two settings below.
@@ -38,7 +38,7 @@ That's it. Open `/admin.html`, sign in with `ADMIN_PASSWORD`, and you're live.
 - Sign in with the password.
 - Tap a stall → pick **Available**, **Reserved**, or **Unavailable**. Changed stalls show an
   amber dashed outline until you publish.
-- Press **Publish** — the public map refreshes within ~1 minute.
+- Press **Publish** — the public map shows the change within a few seconds.
 
 ## Good to know
 

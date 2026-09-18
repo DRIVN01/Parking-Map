@@ -220,14 +220,26 @@
     window.onbeforeunload = n ? function () { return "You have unpublished changes."; } : null;
   }
 
-  function payload() {
-    var available = [], unavailable = [];
+  // Only the stalls changed in this session — the server applies them on top of
+  // the latest saved state, so nothing else can be overwritten.
+  function changes() {
+    var c = {};
+    D.stalls.forEach(function (s) { if (status[s.num] !== original[s.num]) c[s.num] = status[s.num]; });
+    return c;
+  }
+
+  // Adopt a status snapshot from the server as the new baseline.
+  function adopt(st) {
+    var A = {}, U = {};
+    (st.available || []).forEach(function (n) { A[+n] = 1; });
+    (st.unavailable || []).forEach(function (n) { U[+n] = 1; });
     D.stalls.forEach(function (s) {
-      if (status[s.num] === "available") available.push(s.num);
-      else if (status[s.num] === "unavailable") unavailable.push(s.num);
+      status[s.num] = A[s.num] ? "available" : (U[s.num] ? "unavailable" : "reserved");
     });
-    available.sort(function (a, b) { return a - b; }); unavailable.sort(function (a, b) { return a - b; });
-    return { available: available, unavailable: unavailable, notes: notes };
+    notes = Object.assign({}, st.notes || {});
+    original = Object.assign({}, status);
+    D.stalls.forEach(function (s) { paintStatus(s.num); });
+    refreshLegend(); updateDirty();
   }
 
   var toastT;
@@ -238,25 +250,35 @@
 
   pub.onclick = function () {
     if (preview) return;
-    var body = Object.assign({ password: password }, payload());
+    var ch = changes();
+    if (!Object.keys(ch).length) return;
     pub.disabled = true; pub.textContent = "Publishing…";
-    fetch("/api/status", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) })
+    fetch("/api/status", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password: password, changes: ch }) })
       .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
       .then(function (res) {
         if (!res.ok) throw new Error(res.j && res.j.error || "Save failed");
-        original = Object.assign({}, status);
-        D.stalls.forEach(function (s) { paintStatus(s.num); });
-        updateDirty();
-        toast("Published — the public map will update within about a minute.", "ok");
+        adopt(res.j.state);               // includes anyone else's latest changes too
+        toast("Published — live on the public map within a few seconds.", "ok");
       })
       .catch(function (err) { updateDirty(); toast(err.message || "Could not publish. Check your connection and try again.", "err"); });
   };
 
+  // Always start from the latest saved status, never a cached/old copy of the page.
+  function loadLatest() {
+    return fetch("/api/status", { method: "POST", headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ action: "load", password: password }) })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (res) { if (res.ok && res.j.state) adopt(res.j.state); else throw new Error(); })
+      .catch(function () { toast("Couldn't load the latest status — please reload the page.", "err"); });
+  }
+
   /* ============================================================ LOGIN GATE */
   var password = "", preview = false;
-  var isLocal = location.protocol === "file:" || /^(localhost|127\.|\[?::1)/.test(location.hostname);
+  var isLocal = location.protocol === "file:" ||
+    (/^(localhost|127[.]|[[]?::1)/.test(location.hostname) && location.search.indexOf("live") < 0);
 
-  function enter() { q("gate").classList.add("hidden"); setTimeout(function () { q("gate").style.display = "none"; }, 250); apply(); updateDirty(); }
+  function enter() { q("gate").classList.add("hidden"); setTimeout(function () { q("gate").style.display = "none"; }, 250); apply(); updateDirty(); loadLatest(); }
 
   if (isLocal) {                       // offline preview: render everything, but can't publish
     preview = true;
